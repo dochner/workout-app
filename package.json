@@ -19,6 +19,7 @@
   },
   "dependencies": {
     "@unocss/reset": "^0.51.8",
+    "@vercel/analytics": "^1.0.0",
     "@vueuse/core": "^10.1.0",
     "@vueuse/head": "^1.1.26",
     "daisyui": "^2.51.6",

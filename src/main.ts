@@ -7,6 +7,8 @@ import NProgress from 'nprogress'
 import { ViteSSG } from 'vite-ssg'
 import dayjs from 'dayjs'
 import LocalizedFormat from 'dayjs/plugin/localizedFormat.js'
+import { inject } from '@vercel/analytics'
+
 import App from './App.vue'
 
 const routes = autoRoutes.map((i) => {
@@ -30,6 +32,7 @@ export const createApp = ViteSSG(
   { routes, scrollBehavior },
   ({ router, isClient }) => {
     dayjs.extend(LocalizedFormat)
+    inject()
 
     if (isClient) {
       router.beforeEach(() => {
