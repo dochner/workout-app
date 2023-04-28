@@ -1,8 +1,8 @@
 <script setup lang="ts">
 useHead({
-  title: 'Workout App',
+  title: 'WorkoutApp',
   meta: [
-    { name: 'description', content: 'Workout App' },
+    { name: 'description', content: 'WorkoutApp' },
     {
       name: 'theme-color',
       content: '#ffffff',
@@ -19,7 +19,5 @@ useHead({
 </script>
 
 <template>
-  <div>
-    <HBtn>Button</HBtn>
-  </div>
+  <router-view />
 </template>

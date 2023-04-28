@@ -11,6 +11,7 @@ export interface HBtnProps extends Omit<RouterLinkProps, 'to'> {
   block?: boolean
   circle?: boolean
   outline?: boolean
-  color?: string
+  color?: 'primary' | 'secondary' | 'accent' | 'success' | 'error' | 'warning' | 'info' | 'gradient'
   noAnimation?: boolean
+  dense?: boolean
 }

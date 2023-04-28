@@ -95,8 +95,8 @@ export default defineConfig({
       registerType: 'autoUpdate',
       includeAssets: ['favicon.svg'],
       manifest: {
-        name: 'Workout',
-        short_name: 'Workout',
+        name: 'WorkoutApp',
+        short_name: 'WorkoutApp',
         theme_color: '#ffffff',
         icons: [
           {

@@ -10,6 +10,11 @@ export {}
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
     HBtn: typeof import('./src/components/core/HBtn.vue')['default']
+    HCard: typeof import('./src/components/core/HCard.vue')['default']
+    HInnerLoading: typeof import('./src/components/core/HInnerLoading.vue')['default']
+    HLoading: typeof import('./src/components/core/HLoading.vue')['default']
+    HPersonalCardVertical: typeof import('./src/components/personals/HPersonalCardVertical.vue')['default']
+    HPublicFooter: typeof import('./src/components/layout/HPublicFooter.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
   }
