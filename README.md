@@ -1,6 +1,6 @@
 # Workout App
 
-![](public/thumbnail.png)
+![Thumbnail Image](./public/thumbnail.png)
 
 Workout App is a web application that connects personal trainers with their clients. It allows trainers to create customized workout plans for each client and provides an exercise library for reference. The app is built with Vue3, Vite, and Unocss and uses several Vue plugins, including vite-plugin-pages, unplugin-vue-components, vite-plugin-vue-layouts, vite-plugin-pwa, vite-plugin-inspect, vite-ssg, unplugin-vue-macros, and @vueuse/head.
 
@@ -63,7 +63,7 @@ To install Workout App, follow these steps:
 #### Clone the repository to your local machine
 
 ```bash
-git clone <https://github.com/your-username/workout-app.git>
+git clone <https://github.com/dochner/workout-app.git>
 ```
 
 #### Navigate to the project directory
@@ -86,7 +86,7 @@ To run the development server, use the following command:
 npm run dev
 ```
 
-This will start the development server and open the app in your default web browser at <http://localhost:3000>.
+This will start the development server and open the app in your default web browser at <http://localhost:3333>.
 
 ### Building
 
