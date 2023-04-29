@@ -87,12 +87,13 @@ const selected = ref(testimonials[1])
           Find your personal searching by name or specialization.
         </p>
         <div class="mt-10 flex items-center justify-center gap-x-6">
-          <RouterLink
-            class="rounded-md bg-primary-500 px-3.5 py-1.5 text-base font-semibold leading-7 text-white shadow-sm hover:bg-primary-600 focus-visible:outline-2 focus-visible:outline-primary-900 focus-visible:outline-offset-2 focus-visible:outline"
+          <HBtn
+            color="primary"
+            no-link-style
             to="/p"
           >
             Get started
-          </RouterLink>
+          </HBtn>
           <RouterLink
             class="text-base font-semibold leading-7 text-white"
             to="/"
