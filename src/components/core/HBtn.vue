@@ -10,7 +10,7 @@ defineOptions({
 
 const componentColor = computed(() => {
   if (props.color === 'primary')
-    return 'btn-primary'
+    return 'btn-primary text-white'
   if (props.color === 'secondary')
     return 'btn-secondary'
   if (props.color === 'accent')
@@ -29,7 +29,7 @@ const componentClasses = computed(() => [
   props.block && 'btn-block',
   props.circle && 'btn-circle',
   props.dense && 'btn-sm',
-  props.to && 'btn-link',
+  (props.to && !props.noLinkStyle) && 'btn-link',
   componentColor.value,
 
 ].filter(Boolean))
